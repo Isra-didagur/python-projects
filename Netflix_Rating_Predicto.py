@@ -1,3 +1,4 @@
+#rateflix that rates movies based on ml models ml pipelines and randomforest 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
