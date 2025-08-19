@@ -13,7 +13,7 @@ Game Rules: The game includes basic Blackjack rules, such as busting (going over
 🚀 How to Run the Game
 Clone the repository: If you haven't already, clone this repository to your local machine.
 
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/Isra-Didagur/python_project.git
 
 Navigate to the project directory:
 
