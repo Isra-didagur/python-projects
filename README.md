@@ -1,100 +1,168 @@
-# Python Projects Portfolio
+# 🐍 Python Projects Portfolio
 
-Welcome to my Python projects repository!  
-This collection showcases my hands-on work in **software development, data analysis, and problem-solving** using Python.  
-The projects cover topics like **data visualization, machine learning, game development, automation, and algorithms**.
+Welcome to my Python projects repository!
+This collection showcases my hands‑on work in **software development, data analysis, automation, and GUI/game development**.
 
----
-
-## 📌 Priority Projects
-
-### 📩 Email Spam Classifier
-A machine learning project to classify emails as spam or not using text preprocessing and classification models (Naive Bayes).  
-**[View Project](email-spam-classifier.py)**
-
-### 🎬 Netflix Rating Predictor
-Predicts Netflix movie ratings using regression techniques and data preprocessing.  
-**[View Project](Netflix_Rating_Predicto.py)**
-
-### 🌍 Global Temperature Analysis
-Analyzes historical climate data to detect warming trends, anomalies, and seasonal patterns using Pandas, Matplotlib, and Seaborn.  
-**[View Project](global-temperature-analysis.py)**
-
-### 📊 Car Sales Analysis
-Performs data analysis and visualization on car sales data to explore pricing and sales trends.  
-**[View Project](car-sales-analysis.py)**
-
-### 📈 Data Visualization from CSV
-Reads CSV data and generates visual insights using Matplotlib and Seaborn.  
-**[View Project](datavisualized-using-csv.py)**
-
-### 📝 To-Do List Application
-Command-line app for managing daily tasks, adding, removing, and marking them as complete with file-based persistence.  
-**[View Project](todolist.py)**
+> **What’s new (Aug 19, 2025):** README refreshed to include **new folders** (Snake/Pong/Turtle, GUI apps, bots), highlight **portfolio‑worthy projects**, and provide clean run instructions.
 
 ---
 
-## 📌 Additional Python Projects
+## ⭐ Featured Projects (Resume‑Ready)
 
-### 🎯 Number Guessing Game
-A fun interactive game where the player guesses a randomly generated number within a limited number of attempts.  
-**[View Project](Number_Guessin_Game.py)**
+These are the most impactful, unique, and fun projects that best showcase problem‑solving, code quality, and creativity.
 
-### 🎮 Hangman Game
-A Python implementation of the classic Hangman game with a fantasy storyline.  
-**[View Project](hangman-game.py)**
+### 1) 📩 Email Spam Classifier (NLP + ML)
 
-### 🏷 Band Name Generator
-Generates a creative band name based on user input using simple string manipulation.  
-**[View Project](bandname.py)**
+Classifies emails as spam/ham using text preprocessing (tokenization, TF‑IDF) and Naive Bayes; includes evaluation metrics.
 
-### 💰 Bidding Game
-An auction-style game where players bid, and the highest bidder wins.  
-**[View Project](biding.py)**
+* **Skills:** NLP preprocessing, scikit‑learn pipelines, model evaluation
+* **Tech:** Python, scikit‑learn, NLTK
+* **Run:** `python email-spam-classifier.py`
+* **Code:** [email-spam-classifier.py](email-spam-classifier.py)
 
-### 🧮 Calculator
-Performs basic arithmetic operations with a command-line interface.  
-**[View Project](calculator.py)**
+### 2) 🎬 Netflix Rating Predictor (Regression)
 
-### 🔑 Password Generator
-Generates strong, random passwords with customizable length and character sets.  
-**[View Project](password.py)**
+Predicts movie ratings with feature engineering and regression models; includes train/test split and error analysis.
 
-### ✊ Rock-Paper-Scissors
-A classic Rock-Paper-Scissors game played against the computer with randomized choices.  
-**[View Project](rockpaper.py)**
+* **Skills:** EDA, feature prep, regression, metrics
+* **Data:** [Netflix\_Dataset\_Movie.csv](Netflix_Dataset_Movie.csv)
+* **Run:** `python Netflix_Rating_Predicto.py`
+* **Code:** [Netflix\_Rating\_Predicto.py](Netflix_Rating_Predicto.py)
 
-### 💸 Tip Calculator
-Calculates the tip amount per person based on total bill, tip percentage, and number of people.  
-**[View Project](tipcalculator.py)**
+### 3) 🌍 Global Temperature Analysis (Data Storytelling)
 
-### 🗺 Treasure Game
-A grid-based game where players search for hidden treasure using clues.  
-**[View Project](treasuregame.py)**
+Explores historical climate trends, warming rates, and seasonal patterns with clear visuals.
 
-### 📚 Student Grade Calculator
-Calculates the total, average, and grade of a student based on subject marks.  
-**[View Project](student-grade-calculator.py)**
+* **Skills:** Pandas, time‑series EDA, Matplotlib/Seaborn, insight narration
+* **Outputs:** [global\_temperature\_trend.png](global_temperature_trend.png), [seasonal\_temperature\_patterns.png](seasonal_temperature_patterns.png), [temperature\_distribution\_by\_decade.png](temperature_distribution_by_decade.png), [temperature\_anomalies\_by\_region.png](temperature_anomalies_by_region.png)
+* **Run:** `python global-temperature-analysis.py`
+* **Code:** [global-temperature-analysis.py](global-temperature-analysis.py)
 
-### 💱 Currency Converter
-Converts amounts between different currencies using predefined rates.  
-**[View Project](currency-converter.py)**
+### 4) 📊 Car Sales Analysis (Business Insights)
 
-### 🌡 Temperature Converter
-Converts temperature between Celsius, Fahrenheit, and Kelvin.  
-**[View Project](temperature-converter.py)**
+Analyzes pricing & sales patterns; demonstrates data cleaning, grouping, and visualization.
+
+* **Skills:** Pandas, aggregation, plotting, reporting
+* **Data:** [Car\_sales.csv](Car_sales.csv)
+* **Run:** `python car-sales-analysis.py`
+* **Code:** [car-sales-analysis.py](car-sales-analysis.py)
+
+### 5) 🖼️ Image Watermarking Desktop App (GUI + PIL)
+
+Desktop tool to add watermarks to images (batch/single).
+
+* **Skills:** Tkinter GUI, Pillow image ops, file dialogs
+* **Folder:** [`image_watermark_desktop.app`](image_watermark_desktop.app)
+
+### 6) 🐍🎮 Snake / Pong / Turtle Crossing — **Arcade Trio** (OOP + Animation)
+
+Three polished classics showcasing OOP design, animation loops, and collision handling.
+
+* **Snake:** [`snakegame1`](snakegame1), [`snakegame2`](snakegame2)
+* **Pong:** [`build pong arcage game`](build%20pong%20arcage%20game)
+* **Turtle Crossing:** [`turtlecrossingcapstone`](turtlecrossingcapstone)
+* **Skills:** OOP, inheritance, composition, game loops, event handling (turtle)
+
+### 7) 🧠 Flashcard App (Learning Tool, State & Persistence)
+
+A GUI flashcard app for spaced practice.
+
+* **Skills:** Tkinter, state management, timers, file I/O
+* **Folder:** [`flashcardapp`](flashcardapp)
+
+### 8) 🦖 Google Dinosaur Game Bot (Automation)
+
+Automates Chrome Dino gameplay for high scores.
+
+* **Skills:** Automation, image/key events, timing
+* **Folder:** [`googledinogame`](googledinogame)
 
 ---
 
-## 🛠 Technologies Used
-- **Languages**: Python  
-- **Core Modules**: random, math, string, os, time  
-- **Data Analysis Libraries**: Pandas, NumPy, Matplotlib, Seaborn  
-- **Machine Learning & NLP Libraries**: Scikit-learn, NLTK  
-- **Tools**: Jupyter Notebook, Git, CSV Data Processing
+## 📚 Project Index
+
+### 🎮 Games & GUI
+
+* [`snakegame1`](snakegame1), [`snakegame2`](snakegame2) — Snake (Parts 1 & 2)
+* [`build pong arcage game`](build%20pong%20arcage%20game) — Pong (arcade)
+* [`turtlecrossingcapstone`](turtlecrossingcapstone) — Turtle Crossing Capstone
+* [`turtle&gui`](turtle%26gui) — Turtle & GUI practice
+* [`flashcardapp`](flashcardapp) — Flashcard learning app
+* [`quiz`](quiz) — GUI Quiz App
+* [`higherlower`](higherlower) — Higher/Lower (logic & state)
+* [`blackjack`](blackjack) — Blackjack CLI/GUI
+
+### 🤖 Automation & Bots
+
+* [`googledinogame`](googledinogame) — Dino Game Bot
+* [`coffeemachine`](coffeemachine) — Procedural coffee machine simulation
+* [`coffeemakeradvance`](coffeemakeradvance) — OOP coffee machine (resources, menu, coins)
+
+### 📈 Data & ML
+
+* [email-spam-classifier.py](email-spam-classifier.py) — Email Spam Classifier (NLP)
+* [Netflix\_Rating\_Predicto.py](Netflix_Rating_Predicto.py) — Netflix Rating Predictor
+* [global-temperature-analysis.py](global-temperature-analysis.py) — Global Temperature EDA
+* [car-sales-analysis.py](car-sales-analysis.py) — Car Sales EDA
+* [datavisualized-using-csv.py](datavisualized-using-csv.py) — Generic CSV → charts
+
+### 🧰 Utilities & CLI
+
+* [todolist.py](todolist.py) — To‑Do (file persistence)
+* [password.py](password.py) — Password Generator
+* [calculator.py](calculator.py) / [calulator.py](calulator.py) — Calculators
+* [currency-converter.py](currency-converter.py), [temperature-converter.py](temperature-converter.py)
+* [student-grade-calculator.py](student-grade-calculator.py)
+* [Number\_Guessin\_Game.py](Number_Guessin_Game.py), [hangman-game.py](hangman-game.py), [rockpaper.py](rockpaper.py), [tipcalculator.py](tipcalculator.py), [treasuregame.py](treasuregame.py)
+* Pattern practice: [repetitive.py](repetitive.py), [anothermethodfor-repetativenumbers.py](anothermethodfor-repetativenumbers.py), [scopeandnumber](scopeandnumber)
+* Fun generators: [bandname.py](bandname.py)
 
 ---
 
-## 📬 Connect with Me
-- **LinkedIn**: [www.linkedin.com/in/isra-didagur](https://www.linkedin.com/in/isra-didagur)  
-- **GitHub**: [https://github.com/Isra-didagur](https://github.com/Isra-didagur)
+## 🛠 Tech Stack
+
+* **Language:** Python
+* **Core:** `os`, `time`, `random`, `math`, `string`
+* **Data/ML:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `nltk`
+* **GUI & Imaging:** `tkinter`, `turtle`, `Pillow`
+* **Tools:** Jupyter, Git
+
+---
+
+## ▶️ How to Run (General)
+
+```bash
+# 1) Create & activate a virtual env (recommended)
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+# 2) Install common deps (only if project requires them)
+pip install -r requirements.txt  # if provided
+# or install selectively, e.g.
+pip install pandas numpy matplotlib seaborn scikit-learn nltk pillow
+
+# 3) Run a project
+python path/to/script.py
+```
+
+> Some GUI/game projects live in folders. Open the folder for any additional assets or instructions.
+
+---
+
+## 🖼️ Visuals
+
+* Climate EDA figures:
+  [global\_temperature\_trend.png](global_temperature_trend.png) · [seasonal\_temperature\_patterns.png](seasonal_temperature_patterns.png) · [temperature\_distribution\_by\_decade.png](temperature_distribution_by_decade.png) · [temperature\_anomalies\_by\_region.png](temperature_anomalies_by_region.png)
+
+---
+
+## 📬 Connect
+
+* **LinkedIn:** [https://www.linkedin.com/in/isra-didagur](https://www.linkedin.com/in/isra-didagur)
+* **GitHub:** [https://github.com/Isra-didagur](https://github.com/Isra-didagur)
+
+---
+
